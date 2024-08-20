@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .button{
+        @apply btn bg-coral-red font-bold text-white text-xl hover:bg-coral-red;
+    }
+
+    .heading{
+        @apply text-heading text-4xl font-extrabold text-center dark:text-heading-d;
+    }
+
+    .paragraph{
+        @apply text-paragraph text-base font-semibold text-center dark:text-paragraph-d;
+    }
+
+    .display-none{
+        @apply hidden;
+    }
+
+    #theme-switch{
+        @apply h-[50px] w-[50px] p-0 justify-center items-center flex;
+    }
+}

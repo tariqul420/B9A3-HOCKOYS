@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ? font Family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+            rel="stylesheet">
+
+        <title>B9A3 HOCKEYS</title>
+        <link rel="stylesheet" href="src/output.css">
+    </head>
+    <body class="font-manrope scroll-smooth dark:bg-[#1D232A]">
+        <!-- ! nav bar section start hear -->
+        <nav class="mx-auto sticky top-0 z-[1000]">
+            <div class="navbar mx-auto bg-base-100 shadow-lg dark:bg-[#29323d] dark:text-white dark:shadow-2xl lg:px-16">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button"
+                            class="btn btn-ghost lg:hidden">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="h-5 w-5"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul
+                            tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Pages</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <a href="#" class="text-4xl font-extrabold">Hockey<span class="text-coral-red">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="navbar-end">
+                    <!-- theme  -->
+                    <div class="btn btn-ghost btn-circle max-md:hidden">
+                        <button class="" id="theme-switch">
+                          <svg class="moon cursor-pointer dark:hidden" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
+                          <svg class="sun cursor-pointer hidden dark:block dark:fill-white" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/></svg>
+                        </button>
+                      </div>
+
+                    <button class="btn btn-ghost btn-circle mr-6 max-sm:hidden">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-5 w-5"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                      </button>
+
+                    <a class="button border-coral-red">Get Ticket</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ! header section start hear -->
+        <header class="w-[90%] relative mx-auto mt-12" id="home">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full mx-auto">
+                  <img src="Images/1.png" alt="" class="w-full">
+                  <div class="absolute left-5 right-5 top-[80%] flex -translate-y-1/2 transform gap-8 max-sm:translate-[-50%_-50%]">
+                    <a href="#slide3" class="btn btn-circle bg-black text-white border-black hover:text-black">❮</a>
+                    <a href="#slide2" class="btn btn-circle bg-black text-white border-black hover:text-black">❯</a>
+                  </div>
+                </div>
+
+                <div id="slide2" class="carousel-item relative w-full mx-auto">
+                  <img src="Images/2.png" alt="" class="w-full">
+                  <div class="absolute left-5 right-5 top-[80%] flex -translate-y-1/2 transform gap-8">
+                    <a href="#slide1" class="btn btn-circle bg-black text-white border-black hover:text-black">❮</a>
+                    <a href="#slide3" class="btn btn-circle bg-black text-white border-black hover:text-black">❯</a>
+                  </div>
+                </div>
+
+                <div id="slide3" class="carousel-item relative w-full mx-auto">
+                  <img src="Images/3.png" alt="" class="w-full">
+                  <div class="absolute left-5 right-5 top-[80%] flex -translate-y-1/2 transform gap-8">
+                    <a href="#slide2" class="btn btn-circle bg-black text-white border-black hover:text-black">❮</a>
+                    <a href="#slide1" class="btn btn-circle bg-black text-white border-black hover:text-black">❯</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="lg:absolute  bg-black p-8 rounded-2xl top-[70%] right-5 ">
+                <h3 class="text-white text-2xl font-extrabold">Meet all the heroes from the field</h3>
+                <p class="text-white/60 text-base">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
+              </div>
+        </header>
+
+        <main class="lg:w-[80%] mx-auto">
+          <!-- ! Professional Hockeys Club section start hear -->
+          <section class="mt-[6.25rem] max-sm:w-full">
+            <div class="border-dashed border-t-2 border-b-2 border-[#13131833] py-8 dark:border-[#ffffff2f]">
+              <h1 class="heading">Professional Hockeys Club</h1>
+            <p class="paragraph mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br class="max-sm:hidden"> dolor. Purus urna in sit nullam proin. </p>
+            </div>
+
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-sm:space-y-5">
+              <div class="flex flex-col items-center">
+                <div class="relative">
+                  <div class="radial-progress text-coral-red z-50" style="--value:87; --size:7.5rem;" role="progressbar">87%</div>
+                  <div class="radial-progress text-slate-300 absolute top-0 left-0" style="--value:100; --size:7.5rem;" role="progressbar"></div>
+                </div>
+                <h6 class="text-heading text-xl text-center font-bold mt-6 dark:text-heading-d">Prayer Facility</h6>
+                <p class="paragraph mt-4">Amet consectetur. Condimentum dignissim adipiscing .</p>
+              </div>
+
+              <div class="flex flex-col items-center">
+                <div class="relative">
+                  <div class="radial-progress text-[#49D293] z-50" style="--value:87; --size:7.5rem;" role="progressbar">87%</div>
+                  <div class="radial-progress text-slate-300 absolute top-0 left-0" style="--value:100; --size:7.5rem;" role="progressbar"></div>
+                </div>
+                <h6 class="text-heading text-xl text-center font-bold mt-6 dark:text-heading-d">Prayer Facility</h6>
+                <p class="paragraph mt-4">Amet consectetur. Condimentum dignissim adipiscing .</p>
+              </div>
+
+              <div class="flex flex-col items-center">
+                <div class="relative">
+                  <div class="radial-progress text-[#FFB546] z-50" style="--value:87; --size:7.5rem;" role="progressbar">87%</div>
+                  <div class="radial-progress text-slate-300 absolute top-0 left-0" style="--value:100; --size:7.5rem;" role="progressbar"></div>
+                </div>
+                <h6 class="text-heading text-xl text-center font-bold mt-6 dark:text-heading-d">Prayer Facility</h6>
+                <p class="paragraph mt-4">Amet consectetur. Condimentum dignissim adipiscing .</p>
+              </div>
+
+              <div class="flex flex-col items-center">
+                <div class="relative">
+                  <div class="radial-progress text-[#4C8DF1] z-50" style="--value:87; --size:7.5rem;" role="progressbar">87%</div>
+                  <div class="radial-progress text-slate-300 absolute top-0 left-0" style="--value:100; --size:7.5rem;" role="progressbar"></div>
+                </div>
+                <h6 class="text-heading text-xl text-center font-bold mt-6 dark:text-heading-d">Prayer Facility</h6>
+                <p class="paragraph mt-4">Amet consectetur. Condimentum dignissim adipiscing .</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- ! Program Sections start hear -->
+          <section class="mt-[6.25rem] max-sm:w-full">
+            <div class="border-dashed border-t-2 border-b-2 border-[#13131833] py-8 dark:border-[#ffffff2f] mb-12">
+              <h1 class="heading">Program Sections</h1>
+              <p class="paragraph mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br class="max-sm:hidden"> dolor. Purus urna in sit nullam proin. </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 justify-center max-sm:w-full">
+              <div class="relative z-50">
+                <img src="Images/2.png" alt="" class="" />
+                <div class="absolute top-0 left-0 lg:pl-6 lg:pt-[95px] lg:h-full lg:w-full lg:bg-[#13131880] rounded-2xl space-y-3">
+                  <h3 class="text-white text-2xl font-extrabold">Junior Program</h3>
+                  <p class="text-white/60 text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                  <button><a href="#" class="button border-coral-red">Register Now!</a></button>
+                </div>
+              </div>
+
+              <div class="relative">
+                <img src="Images/3.png" alt="" />
+                <div class="absolute top-0 left-0 lg:pl-6 lg:pt-[95px] lg:h-full lg:w-full lg:bg-[#13131880] rounded-2xl space-y-3">
+                  <h3 class="text-white text-2xl font-extrabold">Junior Program</h3>
+                  <p class="text-white/60 text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                  <button><a href="#" class="button border-coral-red">Register Now!</a></button>
+                </div>
+              </div>
+
+              <div class="relative col-span-2">
+                <img src="Images/4.png" alt="" />
+                <div class="absolute top-0 left-0 lg:pl-6 lg:pt-[95px] h-full lg:w-full lg:bg-[#13131880] rounded-2xl space-y-3">
+                  <h3 class="text-white text-2xl font-extrabold">Junior Program</h3>
+                  <p class="text-white/60 text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                  <button><a href="#" class="button border-coral-red">Register Now!</a></button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
