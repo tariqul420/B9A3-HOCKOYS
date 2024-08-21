@@ -2,24 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-    .button{
+.img1 {
+    background-image: url(../Images/2.png);
+}
+
+.img2 {
+    background-image: url(../Images/3.png);
+}
+
+.img3 {
+    background-image: url(../Images/4.png);
+}
+
+@layer components {
+    .button {
         @apply btn bg-coral-red font-bold text-white text-xl hover:bg-coral-red;
     }
 
-    .heading{
+    .heading {
         @apply text-heading text-4xl font-extrabold text-center dark:text-heading-d;
     }
 
-    .paragraph{
+    .paragraph {
         @apply text-paragraph text-base font-semibold text-center dark:text-paragraph-d;
     }
 
-    .display-none{
+    .display-none {
         @apply hidden;
     }
 
-    #theme-switch{
+    #theme-switch {
         @apply h-[50px] w-[50px] p-0 justify-center items-center flex;
     }
 }
